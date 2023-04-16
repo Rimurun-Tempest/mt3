@@ -53,7 +53,7 @@ setuptools.setup(
         'seqio @ git+https://github.com/google/seqio#egg=seqio',
         't5',
         't5x @ git+https://github.com/google-research/t5x#egg=t5x',
-        'tensorflow==2.12.2',
+        'tensorflow',
         'tensorflow-datasets==4.8.0',
     ],
     classifiers=[
