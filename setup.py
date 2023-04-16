@@ -37,7 +37,7 @@ setuptools.setup(
     },
     scripts=[],
     install_requires=[
-        'protobuf==3.20.3',
+        'protobuf==3.20.0',
         'packaging==20.9',
         'absl-py',
         'ddsp',
