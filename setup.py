@@ -51,9 +51,12 @@ setuptools.setup(
         'scikit-learn',
         'scipy',
         'seqio @ git+https://github.com/google/seqio#egg=seqio',
+        'wrapt==1.11.0',
+        'tensorflow-estimator==2.12.0',
+        'tensorboard==2.12.0',
         't5',
         't5x @ git+https://github.com/google-research/t5x#egg=t5x',
-        'tensorflow',
+        'tensorflow==2.12.0',
         'tensorflow-datasets==4.8.0',
     ],
     classifiers=[
