@@ -37,6 +37,7 @@ setuptools.setup(
     },
     scripts=[],
     install_requires=[
+        'protobuf==3.19.6',
         'absl-py',
         'ddsp',
         'flax @ git+https://github.com/google/flax#egg=flax',
@@ -44,7 +45,7 @@ setuptools.setup(
         'immutabledict',
         'librosa',
         'mir_eval',
-        'note_seq',
+        'note_seq==0.0.2',
         'numpy',
         'pretty_midi',
         'scikit-learn',
@@ -52,8 +53,8 @@ setuptools.setup(
         'seqio @ git+https://github.com/google/seqio#egg=seqio',
         't5',
         't5x @ git+https://github.com/google-research/t5x#egg=t5x',
-        'tensorflow',
-        'tensorflow-datasets',
+        'tensorflow==2.10.2',
+        'tensorflow-datasets==4.8.0',
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
