@@ -38,6 +38,7 @@ setuptools.setup(
     scripts=[],
     install_requires=[
         'protobuf==3.20.3',
+        'packaging==20.9',
         'absl-py',
         'ddsp',
         'flax @ git+https://github.com/google/flax#egg=flax',
